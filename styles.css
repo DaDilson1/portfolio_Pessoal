@@ -1050,8 +1050,12 @@ em {
         font-size: .55rem;
     }
 
+    /* Removido o display: none dos botões do carrossel */
     .carousel-btn {
-        display: none;
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+        /* tamanho reduzido mas visível */
     }
 }
 
